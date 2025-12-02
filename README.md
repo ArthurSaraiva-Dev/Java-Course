@@ -1,3 +1,3 @@
-# Repositório de Estudos Java 💻
+Java Study Repository 💻
 
-Coleção de projetos, exercícios e anotações desenvolvidas durante o curso de Java. Abrange desde a **sintaxe fundamental**, **Programação Orientada a Objetos (POO)**, até tópicos avançados como **estrutura de dados**, **APIs** e **testes unitários**. Um registro do meu progresso e aprendizado na linguagem.
+Collection of projects, exercises, and notes developed during the Java course. It covers everything from **fundamental syntax** and **Object-Oriented Programming (OOP)**, to advanced topics such as **data structures**, **APIs**, and **unit testing**. A record of my progress and learning in the language.
