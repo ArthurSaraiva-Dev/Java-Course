@@ -7,6 +7,7 @@ public class Inferencia {
 
         var b = 4.5; // "var" é uma inferência de tipos, que detecta automaticamente o tipo do dado.
         var c = "frase"; // string
-
+        System.out.println(b);
+        System.out.println(c);
     }
 }
