@@ -11,7 +11,7 @@ public class Console {
         System.out.println("inglês"); 
 
         // Coleta infos
-        Scanner entrada = new Scanner(System.in);
+        try (Scanner entrada = new Scanner(System.in)){ // prática moderna para o scanner
 
 
         System.out.print("Digite seu nome: ");
@@ -27,7 +27,6 @@ public class Console {
         double salario = entrada.nextDouble(); // CAPTURA DE PONTO FLUTUANTE
         
         System.out.printf("\nO %s %s, tem %d de idade. \n%s recebe %.2f", nome, sobrenome, idade, nome, salario);
-
-        entrada.close(); // FECHA O SCANNER
+        }
     }
 }
