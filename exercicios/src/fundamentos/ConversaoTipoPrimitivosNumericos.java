@@ -1,7 +1,7 @@
 package fundamentos;
 
 public class ConversaoTipoPrimitivosNumericos {
-    static void main() {
+    public static void main(String[] args) {
         // Fugir ao máximo do CAST
 
         double a = 1; // Implícita

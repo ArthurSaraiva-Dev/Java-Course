@@ -1,7 +1,7 @@
 package fundamentos;
 
 public class ConversaoTipoPrimitivosString {
-    static void main() {
+    public static void main(String[] args) {
         Integer n1 = 10000;
         System.out.println(n1.toString().length());
 
