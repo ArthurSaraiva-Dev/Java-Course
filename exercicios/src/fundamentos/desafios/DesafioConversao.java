@@ -25,7 +25,7 @@ public class DesafioConversao {
         double s2 = Double.parseDouble(salarioString2);
         double s3 = Double.parseDouble(salarioString3);
 
-        double media = s1 + s2 + s3 / 3;
+        double media = (s1 + s2 + s3) / 3;
 
         System.out.printf("A média salárial é: %.2f", media);
 
