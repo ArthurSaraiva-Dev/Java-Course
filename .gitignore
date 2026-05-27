@@ -1,0 +1,15 @@
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+gen/
+
+# Arquivos de compilação do Java
+*.class
+*.log
+
+# Pastas de build comuns (caso use Maven ou Gradle no futuro)
+target/
+build/
