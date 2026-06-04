@@ -10,10 +10,10 @@ public class ProdutoTeste {
         p1.preco = 479.80;
         p1.desconto = 0.15;
 
-        var p2 = new Produto(); // Produto() é o constructor
-        p2.nome = "Notebook";
-        p2.preco = 6789.90;
-        p2.desconto = 0.20;
+        var p2 = new Produto("Notebook", 6789.90, 0.20); // Produto() é o constructor
+        // p2.nome = "Notebook";
+        //p2.preco = 6789.90;
+        //p2.desconto = 0.20;
 
         double precoFinal1 = p1.precoComDesconto(0); // Utilizando Metodo
         double precoFinal2 = p2.precoComDesconto(0.07); // Utilizando Metodo
