@@ -15,12 +15,12 @@ public class ProdutoTeste {
         p2.preco = 6789.90;
         p2.desconto = 0.20;
 
-        double precoFinal1 = p1.preco - (p1.preco * p1.desconto);
-        double precoFinal2 = p2.preco - (p2.preco * p2.desconto);
+        double precoFinal1 = p1.precoComDesconto(0); // Utilizando Metodo
+        double precoFinal2 = p2.precoComDesconto(0.07); // Utilizando Metodo
 
         System.out.printf("Produto: %s\n" +
                 "Valor final (com desconto): R$%.2f\n" +
-                "Desconto Aplicado: %.0f%%" // O "%%" exibe o caractere sem conflitar com o printf.
+                "Desconto Aplicado: %.0f%%\n" // O "%%" exibe o caractere sem conflitar com o printf.
                 , p1.nome, precoFinal1, p1.desconto * 100);
 
         System.out.printf("\nProduto: %s\n" +
