@@ -8,15 +8,15 @@ public class ProdutoTeste {
         Produto p1 = new Produto(); // Utilizando a Classe Produto
         p1.nome = "SSD KINGSTON 512GB";
         p1.preco = 479.80;
-        p1.desconto = 0.15;
+        Produto.desconto = 0.35;
 
-        var p2 = new Produto("Notebook", 6789.90, 0.20); // Produto() é o constructor
+        var p2 = new Produto("Notebook", 6789.90); // Produto() é o constructor
         // p2.nome = "Notebook";
         //p2.preco = 6789.90;
         //p2.desconto = 0.20;
 
-        double precoFinal1 = p1.precoComDesconto(0); // Utilizando Metodo
-        double precoFinal2 = p2.precoComDesconto(0.07); // Utilizando Metodo
+        double precoFinal1 = p1.precoComDesconto(); // Utilizando Metodo
+        double precoFinal2 = p2.precoComDesconto(); // Utilizando Metodo
 
         System.out.printf("Produto: %s\n" +
                 "Valor final (com desconto): R$%.2f\n" +

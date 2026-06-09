@@ -3,20 +3,19 @@ package classe;
 public class Produto {
     String nome;
     double preco;
-    double desconto;
+    static double desconto = 0.25;
 
     Produto(){} // Construtor Padrão
 
-    Produto(String nomeInicial, double precoInicial, double descontoInicial){ // Construtor
+    Produto(String nomeInicial, double precoInicial){ // Construtor
         nome = nomeInicial;
         preco = precoInicial;
-        desconto = descontoInicial;
+    }
+
+    Double precoComDesconto (){
+        return preco - (preco * (desconto));
     }
 
 
-
-    Double precoComDesconto (double descontoDoGerente){
-        return preco - (preco * (desconto + descontoDoGerente));
-    }
 
 }
