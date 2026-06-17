@@ -8,15 +8,13 @@ public class Data {
 
 
     Data(){
-        dia = 1;
-        mes = 1;
-        ano = 1970;
+        this(1,1, 1970);
     }
 
-    Data(int diaInicial, int mesInicial, int anoIncial){
-        dia = diaInicial;
-        mes = mesInicial;
-        ano = anoIncial;
+    Data(int dia, int mes, int ano){
+        this.dia = dia; // Utilizando o this para não haver conflito
+        this.mes = mes;
+        this.ano = ano;
     }
 
     String obterDataFromatada(){

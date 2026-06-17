@@ -2,7 +2,7 @@ package classe;
 
 public class DataTeste {
     public static void main(String[] args) {
-        Data d1 = new Data(); // DATA DEFINICA PADRÃO 1/1/1970
+        Data d1 = new Data(); // DATA PADRÃO 1/1/1970
         //d1.dia = 1;
         //d1.mes = 1;
         //d1.ano = 1970;
